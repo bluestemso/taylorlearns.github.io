@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="{{ '/' | relative_url }}" class="logo">{{ site.title }}</a>
+            <div class="nav-links">
+                <a href="{{ '/' | relative_url }}">Home</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        {{ content }}
+    </main>
+
+    <footer>
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
+        <p><a href="{{ '/privacy-policy' | relative_url }}">Privacy Policy</a></p>
+    </footer>
+</body>
+</html> 
