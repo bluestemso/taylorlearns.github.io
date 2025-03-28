@@ -3,18 +3,16 @@ layout: default
 title: Home
 ---
 
-# Welcome to Bluestem
+# Hi, I'm Taylor
 
-We build solutions for your problems. Our expertise spans across various domains, and we're committed to delivering high-quality, efficient solutions that meet your needs.
+I build (mostly digital) solutions for problems.
 
-## What We Do
+## My tech stack
 
-- Custom Software Development
-- Web Applications
-- Mobile Applications
-- Cloud Solutions
-- Consulting Services
+Depends on the problem to be solved. With AI tools as powerful as they are, I tend to think there aren't many excuses to not learn how to use the right tools for the job.
 
-## Get in Touch
+With that said, lately I've been working with Flutter (Dart) and Django (Python).
 
-Ready to start your project? [Contact us](/contact) to discuss how we can help bring your ideas to life. 
+## Get in touch
+
+[Email me](mailto:t@taylorlearns.com).  I look forward to meeting you. 
