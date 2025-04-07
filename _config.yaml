@@ -4,6 +4,6 @@ description: >
   Bluestem builds solutions for your problems.  Take a look at what we've already built, or reach out to have a solution built just for you.
 baseurl: ''
 url: 'https://bluestem.solutions'
-include: ['pages']
+include: ['pages', 'posts']
 github_username: bluestemso
 markdown: kramdown
