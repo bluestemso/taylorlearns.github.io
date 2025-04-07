@@ -15,9 +15,6 @@ permalink: /blog/
           {{ post.date | date: "%B %-d, %Y" }}
         </time>
       </div>
-      <div class="post-excerpt">
-        {{ post.excerpt | strip_html | truncatewords: 50 }}
-      </div>
       <a href="{{ post.url | relative_url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
