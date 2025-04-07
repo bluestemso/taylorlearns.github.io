@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Blog
 permalink: /blog/
 ---
@@ -14,6 +14,9 @@ permalink: /blog/
         <time datetime="{{ post.date | date_to_xmlschema }}">
           {{ post.date | date: "%B %-d, %Y" }}
         </time>
+      </div>
+      <div class="post-excerpt">
+        {{ post.excerpt | strip_html | truncatewords: 50 }}
       </div>
       <a href="{{ post.url | relative_url }}" class="read-more">Read More</a>
     </article>

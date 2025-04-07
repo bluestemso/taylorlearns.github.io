@@ -1,0 +1,115 @@
+---
+layout: default
+---
+
+<article class="post">
+    <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <div class="post-meta">
+            <time datetime="{{ page.date | date_to_xmlschema }}">
+                {{ page.date | date: "%B %-d, %Y" }}
+            </time>
+            {% if page.categories.size > 0 %}
+                <span class="post-categories">
+                    in {% for category in page.categories %}
+                        <a href="{{ '/categories/' | relative_url }}{{ category | slugify }}">{{ category }}</a>
+                        {% unless forloop.last %}, {% endunless %}
+                    {% endfor %}
+                </span>
+            {% endif %}
+        </div>
+    </header>
+
+    <div class="post-content">
+        {{ content }}
+    </div>
+</article>
+
+<style>
+.post {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.post-header {
+    margin-bottom: 2rem;
+}
+
+.post-title {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.post-meta {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.post-categories {
+    margin-left: 0.5rem;
+}
+
+.post-categories a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.post-categories a:hover {
+    text-decoration: underline;
+}
+
+.post-content {
+    line-height: 1.6;
+    color: #444;
+}
+
+.post-content p {
+    margin-bottom: 1.5rem;
+}
+
+.post-content h2 {
+    font-size: 2rem;
+    margin: 2rem 0 1rem;
+    color: #333;
+}
+
+.post-content h3 {
+    font-size: 1.5rem;
+    margin: 1.5rem 0 1rem;
+    color: #333;
+}
+
+.post-content ul, .post-content ol {
+    margin-bottom: 1.5rem;
+    padding-left: 2rem;
+}
+
+.post-content li {
+    margin-bottom: 0.5rem;
+}
+
+.post-content code {
+    background-color: #f8f9fa;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+    font-family: monospace;
+}
+
+.post-content pre {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 5px;
+    overflow-x: auto;
+    margin-bottom: 1.5rem;
+}
+
+.post-content blockquote {
+    border-left: 4px solid #007bff;
+    padding-left: 1rem;
+    margin-left: 0;
+    color: #666;
+    font-style: italic;
+}
+</style> 
