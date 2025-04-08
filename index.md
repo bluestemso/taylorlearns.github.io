@@ -5,13 +5,14 @@ title: Home
 
 # Hi, I'm Taylor
 
-I build (mostly digital) solutions for problems.
+I build digital solutions for all kinds of problems.
 
-## My tech stack
+## Currently, I'm working on...
 
-Depends on the problem to be solved. With AI tools as powerful as they are, I tend to think there aren't many excuses to not learn how to use the right tools for the job.
+developing a quick and efficient system for building and deploying secure multi-platform Flutter apps.
 
-With that said, lately I've been working with Flutter (Dart) and Django (Python).
+## In the past, I've worked on...
+production management systems, workflow optimizations, and large scale project management.  Check out my portfolio page to learn more.
 
 ## Get in touch
 
