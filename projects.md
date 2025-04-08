@@ -5,25 +5,27 @@ title: Projects
 
 <div class="project-grid">
     {% for item in site.projects %}
-    <article class="project-card">
-        {% if item.image %}
-        <div class="card-image">
-            <img src="{{ item.image }}" alt="{{ item.title }}">
-        </div>
-        {% endif %}
-        <div class="card-content">
-            <h2>{{ item.title }}</h2>
-            <p>{{ item.description }}</p>
-            {% if item.tags %}
-            <div class="tags">
-                {% for tag in item.tags %}
-                <span class="tag">{{ tag }}</span>
-                {% endfor %}
+    <a href="{{ item.url }}" class="project-card-link">
+        <article class="project-card">
+            {% if item.image %}
+            <div class="card-image">
+                <img src="{{ item.image }}" alt="{{ item.title }}">
             </div>
             {% endif %}
-            <a href="{{ item.url }}" class="read-more">View Details</a>
-        </div>
-    </article>
+            <div class="card-content">
+                <h2>{{ item.title }}</h2>
+                <p>{{ item.description }}</p>
+                {% if item.tags %}
+                <div class="tags">
+                    {% for tag in item.tags %}
+                    <span class="tag">{{ tag }}</span>
+                    {% endfor %}
+                </div>
+                {% endif %}
+                <span class="read-more">View Details</span>
+            </div>
+        </article>
+    </a>
     {% endfor %}
 </div>
 
@@ -37,15 +39,22 @@ title: Projects
     margin: 0 auto;
 }
 
+.project-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
 .project-card {
     background: white;
     border-radius: 0.5rem;
     overflow: hidden;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     transition: transform 0.2s, box-shadow 0.2s;
+    height: 100%;
 }
 
-.project-card:hover {
+.project-card-link:hover .project-card {
     transform: translateY(-4px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
@@ -99,7 +108,7 @@ title: Projects
     font-weight: 500;
 }
 
-.read-more:hover {
+.project-card-link:hover .read-more {
     text-decoration: underline;
 }
 </style> 

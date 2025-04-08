@@ -18,7 +18,9 @@ permalink: /blog/
       <div class="post-excerpt">
         {{ post.excerpt | strip_html | truncatewords: 100 }}
       </div>
-      <a href="{{ post.url | relative_url }}" class="read-more">Read More</a>
+      {% if post.excerpt != post.content %}
+        <a href="{{ post.url | relative_url }}" class="read-more">Read More</a>
+      {% endif %}
     </article>
   {% endfor %}
 </div>
