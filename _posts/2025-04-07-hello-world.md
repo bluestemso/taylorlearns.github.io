@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hello World"
+title: "Hello, world"
 date: 2025-04-07 14:30:00 -0500
 categories: [misc]
 ---

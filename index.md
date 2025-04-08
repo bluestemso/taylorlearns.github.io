@@ -12,7 +12,7 @@ I build digital solutions for all kinds of problems.
 developing a quick and efficient system for building and deploying secure multi-platform Flutter apps.
 
 ## In the past, I've worked on...
-production management systems, workflow optimizations, and large scale project management.  Check out my portfolio page to learn more.
+production management systems, workflow optimizations, and large scale project management.  Check out my [projects page](/projects) to learn more.
 
 ## Get in touch
 

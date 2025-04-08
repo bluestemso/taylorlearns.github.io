@@ -16,7 +16,7 @@ permalink: /blog/
         </time>
       </div>
       <div class="post-excerpt">
-        {{ post.excerpt | strip_html | truncatewords: 50 }}
+        {{ post.excerpt | strip_html | truncatewords: 100 }}
       </div>
       <a href="{{ post.url | relative_url }}" class="read-more">Read More</a>
     </article>

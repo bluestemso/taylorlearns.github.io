@@ -1,0 +1,95 @@
+---
+layout: default
+---
+
+<article class="project-item">
+    <header>
+        <h1>{{ page.title }}</h1>
+        <div class="project-meta">
+            {% if page.tags %}
+            <div class="tags">
+                {% for tag in page.tags %}
+                <span class="tag">{{ tag }}</span>
+                {% endfor %}
+            </div>
+            {% endif %}
+            {% if page.link %}
+            <a href="{{ page.link }}" class="project-link" target="_blank">View Project</a>
+            {% endif %}
+        </div>
+    </header>
+
+    {% if page.image %}
+    <div class="project-image">
+        <img src="{{ page.image }}" alt="{{ page.title }}">
+    </div>
+    {% endif %}
+
+    <div class="project-content">
+        {{ content }}
+    </div>
+</article>
+
+<style>
+.project-item {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.project-item h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.project-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.tags {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.tag {
+    background: #f0f0f0;
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.project-link {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    transition: background-color 0.2s;
+}
+
+.project-link:hover {
+    background: #0056b3;
+}
+
+.project-image {
+    margin: 2rem 0;
+}
+
+.project-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.project-content {
+    line-height: 1.6;
+    color: #444;
+}
+</style> 

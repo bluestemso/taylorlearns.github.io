@@ -5,5 +5,9 @@ description: >
 baseurl: ''
 url: 'https://bluestem.solutions'
 include: ['pages', 'posts']
+collections:
+  projects:
+    output: true
 github_username: bluestemso
 markdown: kramdown
+excerpt_separator: <!--more-->
