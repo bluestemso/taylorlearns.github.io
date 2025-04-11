@@ -4,10 +4,42 @@ description: >
   Bluestem builds solutions for your problems.  Take a look at what we've already built, or reach out to have a solution built just for you.
 baseurl: ''
 url: 'https://bluestem.solutions'
-include: ['pages', 'posts']
+
+# Collections configuration
 collections:
   projects:
     output: true
+    permalink: /projects/:path/
+  posts:
+    output: true
+    permalink: /blog/:path/
+
+# Default configuration
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Include directories
+include:
+  - pages
+  - _posts
+  - _projects
+  - assets
+
+# Exclude directories
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - .gitignore
+  - .jekyll-cache
+
 github_username: bluestemso
 markdown: kramdown
 excerpt_separator: <!--more-->
+
