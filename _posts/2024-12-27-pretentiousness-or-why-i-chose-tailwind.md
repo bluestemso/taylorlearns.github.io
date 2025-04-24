@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pretentiousness, or why I chose Tailwind"
-date: 2025-12-27 16:49:00 -0500
+date: 2024-12-27 16:49:00 -0500
 categories: [misc]
 ---
 I'm nowhere near qualified yet to comment on the actual merits of Tailwind as it relates to most of the other common CSS frameworks (Bootstrap, Bulma, etc), but I do know why I chose to implement it on this blog. 
