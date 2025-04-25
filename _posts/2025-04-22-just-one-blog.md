@@ -13,3 +13,4 @@ I'm not even a year into this journey, and I've already lost track of how many d
 5. After changing my focus from Python/Django over to Flutter, took a stab at building a blog/portfolio web app.  The wrestling was good exercise, but after realizing just how easily my Flutter projects could be embedded in vanilla HTML + JavaScript page, went the complete opposite direction and started looking for the simplest solution out there.
 6. Found GitHub Pages with Jekyll right under my nose.  Simple, free, and a great way to practice my markdown (those Gmail formatting shortcuts are buried *deep* in my fingers).
 I've always been a big fan of builders with blogs/portfolios that are built with the technology they build with (like just about every Three.js developer), but I think I've got a ways to go in creating my style and getting good at my craft before that happens.  So for now it's vanilla Jekyll on GitHub Pages for me.
+
