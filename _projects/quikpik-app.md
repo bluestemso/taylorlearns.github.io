@@ -2,16 +2,16 @@
 layout: project
 title: Quikpik App
 description: A simple random picker app for busy parents.
-image: /assets/images/quikpik-composite-screenshot.png
+image: /assets/images/Quikpik-composite-screenshot.png
 tags: [Flutter]
-link: https://github.com/bluestemso/randomness-90-minute-flutter
+link: https://play.google.com/store/apps/details?id=solutions.bluestem.quikpik&hl=en_US
 ---
 
 **Quikpik** helps busy parents when they need to flip a coin, pick a random number/color, or select from a list at random.  It is meant to be a quickly accessible and simple utility app.
 
 This is the first in a new series called "90 Minute Flutter," in which I see just how far I can take a [Flutter](https://flutter.dev/){:target="_blank"} app build in less than 90 minutes.
 
-The app is not currently deployed, but the repo is available publicly on [GitHub](https://github.com/bluestemso/randomness-90-minute-flutter).
+The repo is available publicly on [GitHub](https://github.com/bluestemso/randomness-90-minute-flutter).
 
 ## 90 Minute Flutter
 #### Build Prep
