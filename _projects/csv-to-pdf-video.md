@@ -2,7 +2,7 @@
 layout: project
 title: Automate PDF Reports from CSV Data with Cursor & Vibe Coding
 description: A simple vibe-coded Python tool.
-image: /assets/images/CSV-to-PDF-Converter-Thumbnail.jpeg
+image: /assets/images/CSV-to-PDF-Converter-Thumbnail.png
 tags: [Cursor, YouTube, Python]
 link: https://www.youtube.com/watch?v=-M5TEGY09HI
 ---
