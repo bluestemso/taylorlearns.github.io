@@ -1,9 +1,9 @@
-title: Bluestem
-email: taylor@bluestem.solutions
+title: Taylor Learns
+email: t@taylorlearns.com
 description: >
-  Bluestem builds solutions for your problems.  Take a look at what we've already built, or reach out to have a solution built just for you.
+  I build digital solutions that make lives easier and more productive. Check out my projects and blog posts.
 baseurl: ''
-url: 'https://bluestem.solutions'
+url: 'https://taylorlearns.com'
 
 # Collections configuration
 collections:
@@ -39,7 +39,7 @@ exclude:
   - .gitignore
   - .jekyll-cache
 
-github_username: bluestemso
+github_username: taylorlearns
 markdown: kramdown
 excerpt_separator: <!--more-->
 
