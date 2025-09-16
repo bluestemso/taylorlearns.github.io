@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Something About Self-Hosting"
+date: 2025-09-15 09:19:00 -0500
+categories: [misc, apple]
+---
+There's just something about self-hosting that hits different.  I'm a fierce pragmatist, and I never came across anything sufficiently convincing enough for me to see the value in doing it.  But then along came [Open WebUI](https://openwebui.com).
+<!--more-->
+For those unfamiliar, Open WebUI is a universal client/frontend for LLM interactions.  From what I see on Reddit and elsewhere, it seems most of its users actually run open source models locally on their own machines using a tool like [Ollama](https://ollama.com).  But since I don't yet have a homelab/server setup in my garage and I'm only sporting 16gb of RAM on my MacBook Air M1, I've almost exclusively been using [OpenRouter](https://openrouter.com), and it's been spectacular.  With just a single API integration, I have access to just about every available LLM, both proprietary and open source.
+I started by running Open WebUI on my local machine, but then realized that I couldn't easily access it on mobile, which is when I decided that I needed to deploy it on a server.  I started with [Railway](https://railway.com), but the monthly platform costs were 3-4x of what I had heard it cost to have your own VPS that could host dozens of instances of Open WebUI, so I figured it was as good a time as any to give that a shot.  After looking into quite a few different providers, I settled on [Hetzner](https://www.hetzner.com), and everything's been smooth for a few weeks now.  Docker seemed to make more sense this time around, which seems to be a real reoccurring theme with software development.  I'll bang my head against some tool or language or concept for a few weeks and then angrily push it to the side when I just can't really internalize it.  But then when I bump back into it a few weeks later, I realize that I knew more than I thought I did, and I'm also able to get more of it because I picked up some new tidbits in the interceding weeks.  I suppose this is the value of experience!
