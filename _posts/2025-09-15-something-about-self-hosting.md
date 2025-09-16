@@ -2,7 +2,7 @@
 layout: post
 title: "Something About Self-Hosting"
 date: 2025-09-15 09:19:00 -0500
-categories: [misc, apple]
+categories: [misc]
 ---
 There's just something about self-hosting that hits different.  I'm a fierce pragmatist, and I never came across anything sufficiently convincing enough for me to see the value in doing it.  But then along came [Open WebUI](https://openwebui.com).
 <!--more-->
